@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #fdfcf9;
+  --color-bg-secondary: #faf6ee;
+  --color-accent: #b8893a;
+  --color-accent-light: #e9d6a5;
+  --color-text: #3a3328;
+  --color-text-soft: #6b6354;
+}
+
+[data-theme='soft-blush'] {
+  --color-bg: #fff9fa;
+  --color-bg-secondary: #fbeef0;
+  --color-accent: #d98a99;
+  --color-accent-light: #f5d8dd;
+  --color-text: #4a2e33;
+  --color-text-soft: #7a5b61;
+}
+
+[data-theme='sage-garden'] {
+  --color-bg: #f9fbf7;
+  --color-bg-secondary: #eef2ea;
+  --color-accent: #7a9466;
+  --color-accent-light: #d9e3d0;
+  --color-text: #2e3a28;
+  --color-text-soft: #5c6b54;
+}
+
+[data-theme='dark-elegant'] {
+  --color-bg: #1a1714;
+  --color-bg-secondary: #25201b;
+  --color-accent: #d4b86a;
+  --color-accent-light: #4a3f2f;
+  --color-text: #f3ead5;
+  --color-text-soft: #c9bc9c;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-accent-light);
+  border-radius: 8px;
+}
+
+.bg-theme {
+  background-color: var(--color-bg);
+}
+.bg-theme-secondary {
+  background-color: var(--color-bg-secondary);
+}
+.text-theme {
+  color: var(--color-text);
+}
+.text-theme-soft {
+  color: var(--color-text-soft);
+}
+.text-accent {
+  color: var(--color-accent);
+}
+.bg-accent {
+  background-color: var(--color-accent);
+}
+.border-accent {
+  border-color: var(--color-accent-light);
+}
+
+.ornament-divider {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+}
+.ornament-divider::before,
+.ornament-divider::after {
+  content: '';
+  height: 1px;
+  width: 2.5rem;
+  background: var(--color-accent-light);
+}
+
+.section-fade {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.section-fade.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+[data-theme='dark-elegant'] .glass-card {
+  background: rgba(37, 32, 27, 0.6);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

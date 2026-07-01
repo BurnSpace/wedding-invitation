@@ -1,0 +1,89 @@
+﻿{
+  "mempelai": {
+    "pria": {
+      "nama_lengkap": "Muhammad Irfan Hakim",
+      "nama_panggilan": "Irfan",
+      "anak_ke": "Putra pertama dari",
+      "orang_tua": "Bapak Achmad Rafiq & Ibu Latifah",
+      "instagram": "@irfan.alk",
+      "foto": "/images/couple/IMG_20260328_163519.jpg"
+    },
+    "wanita": {
+      "nama_lengkap": "Muslihah",
+      "nama_panggilan": "Mumus",
+      "anak_ke": "Putri terakhir dari",
+      "orang_tua": "Bapak Anang Darman & Ibu Bahrah",
+      "instagram": "@slisli_02",
+      "foto": "/images/couple/IMG_20260330_212443.jpg"
+    }
+  },
+  "acara": {
+    "tanggal_iso": "2026-07-05T08:00:00+08:00",
+    "tanggal_tampil": "Sabtu, 9 Juli 2026",
+    "akad": {
+      "label": "Akad Nikah",
+      "waktu": "08.00 - 10.00 WITA",
+      "lokasi": "Kediaman Mempelai Wanita",
+      "tanggal_tampil": "Minggu, 5 Juli 2026"
+    },
+    "resepsi": {
+      "label": "Resepsi Pernikahan",
+      "waktu": "11.00 - 14.00 WITA",
+      "lokasi": "Wetland Square",
+      "tanggal_tampil": "Sabtu, 9 Juli 2026"
+    },
+    "alamat_lengkap": "Jl. A. Yani No.KM 3,5, Kebun Bunga, Kec. Banjarmasin Tim., Kota Banjarmasin, Kalimantan Selatan",
+    "maps_lat": -3.3285241,
+    "maps_lng": 114.6101198,
+    "maps_embed_zoom": 16
+  },
+  "musik": {
+    "url": "/audio/ssstik.io_1782899338300.mp3",
+    "judul_lagu": "Cerita kamu aja bang",
+    "autoplay": true
+  },
+  "tema": {
+    "default": "classic-gold",
+    "pilihan": ["classic-gold", "soft-blush", "sage-garden", "dark-elegant"]
+  },
+  "cover": {
+    "tampilkan_foto": true,
+    "gaya_foto": "background"
+  },
+  "galeri": [
+    { "src": "/images/gallery/IMG_20260227_191144.jpg", "caption": "Pertemuan pertama kami" },
+    { "src": "/images/gallery/IMG_20260326_152428.jpg", "caption": "Liburan bersama" },
+    { "src": "/images/gallery/IMG_20260126_161818.jpg", "caption": "Hari lamaran" },
+    { "src": "/images/gallery/IMG_20260206_144142.jpg", "caption": "Pre-wedding" },
+    { "src": "/images/gallery/IMG_20260227_191034.jpg", "caption": "Momen bahagia" },
+    { "src": "/images/gallery/IMG_20260227_191045.jpg", "caption": "Bersama keluarga" }
+  ],
+  "cerita_cinta": [
+    {
+      "tanggal": "Januari 2020",
+      "judul": "Awal Pertemuan",
+      "deskripsi": "Kami bertemu pertama kali di sebuah acara kampus. Siapa sangka pertemuan singkat itu menjadi awal dari kisah panjang kami."
+    },
+    {
+      "tanggal": "Agustus 2021",
+      "judul": "Mulai Dekat",
+      "deskripsi": "Komunikasi yang semakin intens membuat kami semakin dekat dan saling memahami satu sama lain."
+    },
+    {
+      "tanggal": "Maret 2023",
+      "judul": "Lamaran",
+      "deskripsi": "Dengan restu kedua orang tua, kami resmi bertunangan dan mempersiapkan langkah selanjutnya."
+    },
+    {
+      "tanggal": "Juli 2026",
+      "judul": "Hari Bahagia",
+      "deskripsi": "Hari yang telah kami nantikan akhirnya tiba. Kami akan resmi menjadi sepasang suami istri."
+    }
+  ],
+  "rekening_kado": [
+    { "bank": "BCA", "nomor": "1234567890", "atas_nama": "Muhammad Irfan Hakim" },
+    { "bank": "Mandiri", "nomor": "0987654321", "atas_nama": "Muslihah" }
+  ],
+  "ucapan_pembuka": "Tanpa mengurangi rasa hormat, kami mengundang Bapak/Ibu/Saudara/i untuk menghadiri acara pernikahan kami",
+  "hashtag": "#SliPanWedding"
+}
